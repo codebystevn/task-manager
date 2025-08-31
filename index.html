@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Task Manager</h1>
+        </header>
+        <main>
+            <div class="task-list">
+            <h2>Your Tasks</h2>
+            <ul>
+                <li>Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li>
+            </ul>
+        </div>
+
+        <div class="add-task">
+            <h2>Add a New Task</h2>
+            <form>
+                <input type="text" id="task-input" placeholder="Enter task name">
+                <input type="date" id="due-date" placeholder="Enter due date"> <br>
+                <button id="add-task-button" type="submit">Add Task</button>
+            </form>
+        </div>
+
+        <section>
+            <div class="tasklist">
+                <h2>Pending Tasks</h2>
+                <ul id="task-list"></ul>
+            </div>
+
+            <div class="completedtasks">
+                <h2>Completed Tasks</h2>
+                <ul id="completed-tasks"></ul>
+            </div>
+
+            <div class="calender view">
+                <h2>Calender View</h2>
+                <ul id="calenderview"></ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Task Manager. All rights reserved.</p>
+    </footer>
+</body>
+</html>
